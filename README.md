@@ -19,4 +19,4 @@ Linear Regression on Data set of Anscombe's Quartet
 run python main2.py
 ```
 
-![Figure-5](https://github.com/Nshul/ML_LinearRegression_Residual/blob/master/images/Figure_4.png)
+![Figure-5](https://github.com/Nshul/ML_LinearRegression_Residual/blob/master/images/Figure_5.png)
