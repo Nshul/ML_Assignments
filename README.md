@@ -13,4 +13,10 @@ Residual Plot for the same
 ![Figure-4](https://github.com/Nshul/ML_LinearRegression_Residual/blob/master/images/Figure_4.png)
 
 ### Part 3
-Linear REgression Data set -> Anscombe's Quartet
+Linear Regression on Data set of Anscombe's Quartet
+
+```python
+run python main2.py
+```
+
+![Figure-5](https://github.com/Nshul/ML_LinearRegression_Residual/blob/master/images/Figure_4.png)
