@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # load data from csv
-data = pd.read_csv('./enjoysportdata/data2.csv', ',')
+data = pd.read_csv('./enjoysportdata/data.csv', ',')
 
 no_of_columns = data.shape[1]
 no_of_examples = data.shape[0]
