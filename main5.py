@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # load data from csv
-data = pd.read_csv('./enjoysportdata/data.csv', ',')
+data = pd.read_csv('./enjoysportdata/data2.csv', ',')
 
 no_of_columns = data.shape[1]
 no_of_examples = data.shape[0]
@@ -50,7 +50,7 @@ for index, i in data.iterrows():
                         if S[j] == 'phi':
                             # add all the other values possible
                             temp_k_data = data[data.columns[j]].unique()
-                            temp_values = np.delete(temp_k_data, i[j])
+                            temp_values = temp_k_data[temp_k_data != i[j]]
                             t_hyp = hyp.copy()
                             for temp_itr in temp_values:
                                 t_hyp[j] = temp_itr
